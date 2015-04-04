@@ -1,0 +1,22 @@
+{
+    "name": "raffie-rest/jwt",
+    "description": "Google oAuth2 JWT Generator",
+    "authors": [
+        {
+            "name": "Raffie REST",
+            "email": "raffie.rest@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/raffie-rest",
+    "license": "MIT",
+    "version": "0.1.0-alpha0",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raffie\\REST\\JWT\\": "src/"
+        }
+    }
+}
