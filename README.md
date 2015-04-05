@@ -35,9 +35,9 @@ Feed it a config array, like so:
 	  ]
 	];
 	
-	$jwt = new JWT($jwtConfig);
+	$generator = new Generator($jwtConfig);
 	
-	$returnedJwt = $jwt->generate();
+	$returnedJwt = $generator->generate();
 
 Make sure that the relevant API's are enabled, and the user has read/write access. 
 
